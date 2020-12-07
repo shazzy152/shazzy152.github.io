@@ -22,7 +22,7 @@ h1{
 	padding-top: 5rem;
 }
 .buffer{
-	padding-top: 21rem;
+	padding-top: 18rem;
 }
 .btn{
 	font-family: 'Montserrat', sans-serif;
@@ -55,7 +55,7 @@ h1{
 	width: 100%;
 	height:auto;
 }
-@media only screen and (max-width: 737px) {
+@media only screen and (max-width: 737px), screen and (max-height: 500px) {
     .box {
         padding: 30px;
 		margin: 20px;
@@ -64,6 +64,9 @@ h1{
 	}
 	.box > img {
 		width: 30%;
+	}
+	.btn{
+		margin-bottom: 80px;
 	}
 }
 .made{
